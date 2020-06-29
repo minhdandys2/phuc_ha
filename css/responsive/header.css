@@ -60,7 +60,23 @@ nav ul li a {
     color: white;
 }
 
+
+@media (max-width: 768px) {
+    .real_time {
+        display: none;
+    }
+
+    .all_logo__logo_IS {
+        display: none;
+    }
+}
+
+
 @media (max-width: 576px) {
+    .all_logo {
+        margin-top: 35px;
+    }
+    
     nav ul {
         display: block;
     }
@@ -103,12 +119,12 @@ nav ul li a {
         display: block;
     }
 
-    .header_web {
+    /* .header_web {
         margin-top: 30px;
         position: absolute;
         width: 100px;
         height: 300px;
-    }
+    } */
 
 
     #customNav {
@@ -124,18 +140,4 @@ nav ul li a {
     }
 }
 
-
-@media (max-width: 768px) {
-    .real_time {
-        display: none;
-    }
-
-    .all_logo__logo_IS {
-        display: none;
-    }
-}
-
-
-@media (min-width: 768px) {
-}
 

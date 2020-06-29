@@ -199,7 +199,7 @@ main .carousel-index {
     width: auto;
     height: auto;
     margin: 0 0 20px 0;
-    padding-left: 14%;
+    padding-left: 8%;
     z-index: 9;
     background-color: transparent;
 }
@@ -245,7 +245,7 @@ main .carousel-index {
 /* y kien khach hang */
 
 .customer_reviews__title {
-    padding-left: 14%;
+    padding-left: 8%;
 }
 
 .customer_reviews .icon {
@@ -279,6 +279,7 @@ main .carousel-index {
 
 #customer_reviews .images img {
     height: 100%;
+    width: 100%;
 }
 
 #customer_reviews .carousel-control-next-icon,
@@ -289,7 +290,7 @@ main .carousel-index {
 
 /* product and service */
 .product_and_service__title {
-    padding-left: 14%;
+    padding-left: 8%;
 }
 
 .product_and_service__item {
@@ -312,7 +313,7 @@ main .carousel-index {
 
 /* strategic partnership */
 .strategic_partnership__title {
-    margin-left: 14%;
+    margin-left: 8%;
 }
 
 .strategic_partnership .logo_phu_ha {

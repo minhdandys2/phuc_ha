@@ -1,4 +1,4 @@
-@media (max-width: 575.98px) {
+@media (max-width: 576px) {
     body {
         font-size: 12px!important;
     }
@@ -9,12 +9,15 @@
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
+    .product_specialist_item .product_specialist_item__search input {
+        width: 100%;
+    }
 
 }
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 992px) {
     .general_introduction__items {
         position: relative;
     }

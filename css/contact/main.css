@@ -23,7 +23,7 @@ main {
 }
 
 .header_contact .triangle_right {
-    margin-top: -2px;
+    margin-top: -1px;
     margin-bottom: 0;
     width: 0;
     height: 0;
@@ -36,7 +36,7 @@ main {
     line-height: 28px;
     background-color: orange;
     color: black;
-    padding: 6px 0 5px 5px;
+    padding: 4px 0 5px 5px;
 }
 
 main .contact__information {

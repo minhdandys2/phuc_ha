@@ -18,7 +18,7 @@ main {
 }
 
 .header_news .triangle_right {
-    margin-top: -2px;
+    margin-top: -1px;
     margin-bottom: 0;
     width: 0;
     height: 0;
@@ -31,13 +31,18 @@ main {
     line-height: 28px;
     background-color: orange;
     color: black;
-    padding: 6px 0 5px 5px;
+    padding: 4px 0 5px 5px;
+}
+
+.header_news a:hover {
+    text-decoration: none;
 }
 
 .body_news {
     background-color: white;
-    padding: 10px;
-    line-height:normal
+    padding: 5px;
+    line-height:normal;
+    box-shadow: 2px 2px 5px 3px #8888;
 }
 
 .body_news img {
@@ -51,7 +56,8 @@ main {
 }
 
 
-.news__card {
+.news_item2 .card{
+    width: 100%;
     box-shadow: 2px 2px 5px 3px #8888;
     padding: 5px;
 }

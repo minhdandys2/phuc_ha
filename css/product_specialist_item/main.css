@@ -17,7 +17,8 @@ main {
 }
 
 .product_specialist_item__header .triangle_right {
-    margin-top: -2px;
+    margin-right: 5px;
+
     margin-bottom: 0;
     width: 0;
     height: 0;
@@ -30,7 +31,11 @@ main {
     line-height: 28px;
     background-color: orange;
     color: black;
-    padding: 6px 0 5px 5px;
+    padding: 4px 0 5px 5px;
+}
+
+.product_specialist_item__header a:hover {
+text-decoration: none;
 }
 
 /*search */
@@ -51,6 +56,7 @@ main {
     border: 1px solid orange;
     width: 350px;
     border-radius: 0;
+    margin: 5px 5px 5px 0;
 }
 
 .product_specialist_item__search p{
@@ -143,7 +149,7 @@ main {
 
   .general_introduction__items img {
     font-size: 10px;
-    border-right: 1px solid silver;
+    border-left: 1px solid silver;
     padding:  0 15px;
     margin: 0;
   }

@@ -18,7 +18,7 @@ main {
 }
 
 .product_specialist__header .triangle_right {
-    margin-top: -2px;
+    margin-right: 5px;
     margin-bottom: 0;
     width: 0;
     height: 0;
@@ -31,7 +31,7 @@ main {
     line-height: 28px;
     background-color: orange;
     color: black;
-    padding: 6px 0 5px 5px;
+    padding: 4px 0 5px 5px;
 }
 
 .product_specialist__search p {
@@ -43,7 +43,8 @@ main {
 .product_specialist__search select {
     border: 1px solid orange;
     height: 38px;
-    margin-right: 7px;
+    
+    margin: 5px 5px 5px 0;
 }
 
 .product_specialist__select {
@@ -54,6 +55,7 @@ main {
     border: 1px solid orange;
     width: 330px;
     border-radius: 0;
+    margin: 5px 5px 5px 0;
 }
 
 .product_specialist__search p{
