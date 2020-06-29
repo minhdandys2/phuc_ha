@@ -1,0 +1,96 @@
+footer {
+    margin-top: 40px;
+    position: relative;
+}
+/* information */
+
+.information .row {
+max-width: none;
+}
+
+.information {
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 20px;
+    padding: 25px;
+    font-size: 12px;
+    background-color: royalblue;
+    color: white;
+    height: auto;
+}
+
+.information .information__title {
+    margin: 30px 0;
+    padding: 0;
+
+}
+
+.information .information__hotline {
+    display: flex;
+}
+
+.information .information__hotline i {
+    color: white;
+    font-size: 200%;
+}
+
+.information .information__hotline .information__hotline__text {
+    color: white;
+
+    /*font-size: ;*/
+}
+
+.information .map {
+   height: auto;
+}
+
+.information .btn_submit {
+    text-align: center;
+}
+
+.information__statistical__title_time {
+    text-align: left;
+}
+
+.information__statistical__number_everybody {
+    text-align: right;
+}
+
+.information__statistical__everybody_online {
+    text-align: center;
+}
+
+.information__send_require input {
+    width: 100%;
+}
+
+.information__send_require textarea {
+    width: 100%;
+}
+
+.contact {
+    position: absolute;
+    z-index: 1;
+    background-color: orange;
+    right: 0;
+    line-height: 2.3;
+}
+
+.contact .contact__content {
+    margin: 10px 50px;
+    color: white;
+    font-weight: 500;
+}
+
+.contact::after {
+    position: absolute;
+    content: "";
+    left: -200px;
+    top: 0;
+    width: 110%;
+    height: 100%;
+    transform: skew(-30deg);
+    background-color: orange;
+    z-index: -1;
+}

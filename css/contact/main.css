@@ -1,0 +1,63 @@
+/* main contact */
+main {
+    margin-top: 10px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.contact__title_big {
+    text-align: center;
+    font-size: 30px;
+}
+
+.header_contact {
+    display: flex;
+    padding: 10px;
+}
+
+.header_contact img {
+    background-color: orange;
+    color: black;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.header_contact .triangle_right {
+    margin-top: -2px;
+    margin-bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-left: 20px solid orange;
+    border-bottom: 15px solid transparent;
+}
+
+.header_contact b {
+    line-height: 28px;
+    background-color: orange;
+    color: black;
+    padding: 6px 0 5px 5px;
+}
+
+main .contact__information {
+    padding: 10px 15%;;
+}
+
+.contact__information textarea,
+.contact__information input {
+    padding-left: 5px;
+    border: 1px solid orange;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact__title {
+    color: orange;
+    border-bottom: 3px solid orange;
+    width: 101px;
+}
+
+.contact__all_branches {
+    color: #007bff;
+    text-align: right;
+}

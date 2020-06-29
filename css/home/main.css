@@ -1,0 +1,347 @@
+/*main*/
+h1 {
+    color: royalblue;
+}
+
+/* .col-md-12 {
+    padding: 0;
+} */
+
+main {
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/*main__about_us*/
+
+.main__about_us {
+    position: relative;
+}
+
+.main__about_us .row img {
+    width: 100%;
+    height: 200px;
+}
+
+.main__about_us .content {
+    text-align: center;
+    color: royalblue;
+    padding: 15px 0;
+}
+
+.main__about_us .content .number {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.main__about_us .content .number span {
+    justify-content: center;
+    border-radius: 50%;
+    background-color: orange;
+    line-height: 80px;
+    font-size: 20px;
+}
+
+.main__about_us .content .title {
+    margin-top: 10px;
+}
+
+/* carousel */
+
+main .carousel-index {
+    top: auto;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#description .carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-index > .carousel__index__about {
+    position: absolute;
+    margin: 0;
+    justify-content: flex-start;
+    bottom: 10%;
+    padding-left: 10%;
+    display: flex;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.carousel-index > .carousel__index__about::before {
+    position: absolute;
+    content: "";
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: royalblue;
+}
+
+.carousel-index > .carousel__index__about::after {
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 20%;
+    background-color: royalblue;
+    transform: skew(-30deg);
+}
+
+.carousel-index .carousel__index__about__item {
+    padding: 1rem 0;
+    opacity: 1;
+    cursor: pointer;
+    margin: 0 1rem;
+    text-align: center;
+    text-indent: 0;
+    width: 140px;
+    height: auto;
+    border: none;
+    transform: skew(-30deg);
+    background-color: royalblue;
+}
+
+.carousel-index .carousel__index__about__item__link {
+    background-color: transparent;
+    transform: skew(30deg);
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-index > .carousel__index__about .active,
+.carousel-index > .carousel__index__about .carousel__index__about__item:hover {
+    display: block;
+    background-color: orange;
+}
+
+.carousel-index {
+    overflow: hidden;
+    height: 50rem;
+    width: 100%;
+}
+
+.carousel-inner .carousel__index__item__text {
+    position: absolute;
+    right: 10%;
+    top: 5%;
+    width: 45%;
+    background-color: whitesmoke;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+.carousel__index__item__text span{
+    display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.carousel__control__prev__img,
+.carousel__control__next__img {
+    width: 3vw;
+}
+
+/* nang luc san xuat */
+
+.owl-nav,
+.owl-dots {
+    display: none;
+}
+
+.production_capacity {
+    height: 254px;
+}
+
+#demos > .large-12 > #customNav button {
+    background-color: transparent;
+    padding: 0;
+    margin: 5px;
+    z-index: 2;
+    outline: none;
+}
+
+#customNav {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    float: right;
+}
+
+.next {
+    background-color: royalblue;
+}
+
+.large-12 {
+    position: relative;
+    padding: 0;
+    background-color: royalblue;
+    height: auto;
+}
+
+.large-12 > .title {
+    position: absolute;
+    left: 0;
+    width: auto;
+    height: auto;
+    margin: 0 0 20px 0;
+    padding-left: 14%;
+    z-index: 9;
+    background-color: transparent;
+}
+
+.large-12 > .title::after {
+    position: absolute;
+    background-color: white;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    transform: skew(-50deg);
+    z-index: -1;
+}
+
+.large-12 > .title::before {
+    position: absolute;
+    background-color: white;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#demos .owl-carousel .item {
+    margin: 15px;
+    padding: 3px !important;
+}
+
+.owl-stage {
+    top: 15px
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* y kien khach hang */
+
+.customer_reviews__title {
+    padding-left: 14%;
+}
+
+.customer_reviews .icon {
+    width: 40px;
+    height: 40px;
+}
+
+#customer_reviews > .carousel-inner {
+    position: relative;
+    background-color: #ffc107;
+}
+
+#customer_reviews .triangle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid white;
+    border-bottom: 0 solid transparent;
+}
+
+#customer_reviews > .carousel-index > .carousel-item {
+    width: 100%;
+}
+
+#customer_reviews .images {
+    height: 235px;
+}
+
+#customer_reviews .images img {
+    height: 100%;
+}
+
+#customer_reviews .carousel-control-next-icon,
+#customer_reviews .carousel-control-prev-icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* product and service */
+.product_and_service__title {
+    padding-left: 14%;
+}
+
+.product_and_service__item {
+    height: 200px;
+}
+
+.product_and_service__item .image img {
+    width: 100%;
+    height: 150px;
+}
+
+.product_and_service__item .image {
+    padding: 10px;
+}
+
+.product_and_service__item .product_and_service__item__title {
+    text-align: center;
+    color: royalblue;
+}
+
+/* strategic partnership */
+.strategic_partnership__title {
+    margin-left: 14%;
+}
+
+.strategic_partnership .logo_phu_ha {
+    height: 100%;
+    text-align: center;
+}
+
+.strategic_partnership .logo_phu_ha:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.strategic_partnership .logo_phu_ha img {
+    width: 300px;
+    height: 80px;
+}
+
+.strategic_partnership .carousel-item .image_logo {
+    padding: 5px;
+}
+
+.strategic_partnership .carousel-item .col-md-4 {
+    padding: 0;
+}
+
+.strategic_partnership .carousel-inner {
+    padding: 0 15%;
+}
+
+
+
