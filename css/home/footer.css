@@ -41,6 +41,14 @@ max-width: none;
     /*font-size: ;*/
 }
 
+.information .information__hotline .information__hotline__text a:hover {
+    text-decoration: none;
+}
+
+.information .information__hotline a:hover {
+    text-decoration: none;
+}
+
 .information .map {
    height: auto;
 }

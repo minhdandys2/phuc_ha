@@ -39,6 +39,10 @@ main {
     padding: 4px 0 5px 5px;
 }
 
+.header_contact a:hover {
+    text-decoration: none;
+}
+
 main .contact__information {
     padding: 10px 15%;;
 }
@@ -60,4 +64,8 @@ main .contact__information {
 .contact__all_branches {
     color: #007bff;
     text-align: right;
+}
+
+.contact__all_branches a:hover {
+    text-decoration: none;
 }
